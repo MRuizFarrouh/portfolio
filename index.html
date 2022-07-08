@@ -4,12 +4,74 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basic tags</title>
+  <title>Manuel Ruiz Farrouh</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+    <div>
+		<header>
+			<div>
+				<h1>Manuel Ruiz Farrouh</h1>
+				<p>Fotógrafo</p>
+			</div>
+	    </header>
+    </div>
+    <main>
+    <section id="contacto">
+		<div>
+			<h2>Contacto</h2>
+		</div>
+		<div>
+			<form id="formulario-contacto" action="/register" method="post">
+				<div>
+					<label for="contacto-nombre">Nombre</label>
+					<input type="text" id="contacto-nombre" placeholder="Nombre" required>
+				</div>
+                <div>
+					<label for="contacto-apellidos">Apellidos</label>
+					<input type="text" id="contacto-apellidos" placeholder="Apellidos" required>
+				</div>
+				<div>
+					<label for="contacto-email">Email</label>
+					<input type="email" id="contacto-email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required>
+				</div>
+				<div>
+					<label for="contacto-telefono">Teléfono</label>
+					<input type="tel" name="contacto-telefono" id="contacto-telefono" pattern="\b\d{3}[-.]?\d{3}[-.]?\d{3,4}\b" placeholder="Teléfono" required>
+				</div>
+				<div>
+					<p>¿Cómo me conociste?</p>
+					<div class="radio-button">
+						<input type="radio" id="universidad" name="pregunta" value="universidad" required>
+						<label for="universidad">Nos conocimos en la Universidad.</label>
+					</div>
+					<div class="radio-button">
+						<input type="radio" id="keepcoding" name="pregunta" value="KeepCoding" required>
+						<label for="keepcoding">Keepcoding kick-off.</label>
+					</div>
+					<div class="radio-button">
+						<input type="radio" id="colegio" name="pregunta" value="colegio" required>
+						<label for="colegio">Colegio.</label>
+					</div>
+					<div class="radio-button">
+						<input type="radio" id="github" name="pregunta" value="github" required>
+						<label for="github">Github</label>
+						<input type="text" id="github-text" name="github" placeholder="Tag de Github" pattern=" ^@[^\s]+">
+					</div>
+				</div>
+				<div>
+					<label for="descripcion">Descripción</label>
+					<textarea name="descripcion" id="descripcion" row="1" placeholder="Max 180 caracteres"></textarea>
+				</div>
+				<div>
+					<button type="submit" id="submit-button">Enviar</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	</section>
+    </main>
 </body>
 </html>
