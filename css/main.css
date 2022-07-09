@@ -65,6 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .contenedor-navbar:hover .nav-link {
@@ -85,6 +86,8 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
+    display: none;
+
  }
 
 .foto {
@@ -166,7 +169,19 @@
   transform: translate(-50%, -50%);
 }
 
+.formulario {
+ text-align: center;
+ margin: 10px;
+
+}
+
 .boton {
   border-radius: 5px;
   border:2px;
+}
+
+@media screen and (min-width:700px){
+  .contenedor-navbar {
+    display: flex;
+  }
 }

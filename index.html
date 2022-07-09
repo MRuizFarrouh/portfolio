@@ -74,6 +74,7 @@
 		<div class="titulo-seccion">
 			<strong>Mis proyectos</strong>
 		</div>
+		<br>
 		<div class="carousel-slides">
 		  <div id="slide1" class="slide-item contenedor">
 			<img src="/z_portfolio_Manuel_Ruiz\images\paisaje.jpg" style="width: 100%"><!-- Proyecto 1 -->
@@ -108,25 +109,27 @@
 		<div class="titulo-seccion">
 			<strong>Formulario de contacto</strong>
 		</div>
+		<br>
 		<div>
 			<form id="formulario-contacto" action="/register" method="post">
-				<div>
+				<div class="formulario">
 					<label for="contacto-nombre">Nombre</label>
 					<input type="text" style="width : 200px"; name="contacto-nombre" id="contacto-nombre" placeholder="Nombre" required>
 				</div>
-                <div>
+                <div class="formulario">
 					<label for="contacto-apellidos">Apellidos</label>
 					<input type="text" style="width : 190px"; name="contacto-apellidos" id="contacto-apellidos" placeholder="Apellidos" required>
 				</div>
-				<div>
+				<div class="formulario">
 					<label for="contacto-email">Email</label>
 					<input type="email" style="width : 214px"; name="contacto-email" id="contacto-email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="Email" required>
 				</div>
-				<div>
+				<div class="formulario">
 					<label for="contacto-telefono">Teléfono</label>
 					<input type="tel" style="width : 195px"; name="contacto-telefono" id="contacto-telefono" pattern="\b\d{3}[-.]?\d{3}[-.]?\d{3,4}\b" placeholder="Teléfono" required>
 				</div>
-				<div>
+				<br>
+				<div class="formulario">
 					<p>¿Cómo me conociste?</p>
 					<div class="radio-button">
 						<input type="radio" name="pregunta" id="universidad"  value="universidad" required>
@@ -146,11 +149,12 @@
 						<input type="text" style="width : 189px"; id="github-text" name="github" placeholder="Tag de Github" pattern=" ^@[^\s]+">
 					</div>
 				</div>
-				<div>
+				<br>
+				<div class="formulario">
 					<label for="descripcion"><!-- Descripción --></label>
-					<textarea name="descripcion" style="width : 255px" id="descripcion" row="1" placeholder="Descripción: Max 180 caracteres" required></textarea>
+					<textarea name="descripcion" style="width : 254px" id="descripcion" row="1" placeholder="Descripción: Max 180 caracteres" required></textarea>
 				</div>
-				<div>
+				<div class="formulario">
 					<button type="submit" class="boton" id="submit-button">Enviar</button>
 				</div>
 			</form>
