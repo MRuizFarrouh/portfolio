@@ -16,13 +16,15 @@
 }
 
 .margen-cabecera {
-  margin-top: -20px;
+  margin-top: -28px;
+  padding-bottom: 10px;
   font-size:x-large;
 }
 
 .navbar-main {
   background-color: var(--main-navbar-color);
   color: var(--secondary-font-color);
+  position:sticky;
   padding: 0px 0px;
   top: 0;
   right: 0;
