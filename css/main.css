@@ -13,6 +13,7 @@
 .italics {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
+  color:#131313
 }
 
 .margen-cabecera {
@@ -38,8 +39,52 @@
 .nav-link {
   color: var(--secondary-font-color);
   display: flex;
-  justify-content:right;
-  align-items: right;
+  justify-content:end;
+  align-items:flex-end;
+  padding: 10px;
+}
+
+/* .nav-link:hover {background-color: rgb(252, 225, 191);} */
+
+.nav-link-wrap {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:10%;
+}
+
+.nav-link {
+  padding:20px;
+  margin:2%;
+  background:rgb(114, 109, 109);
+  width:20%;
+  border:1px solid #d6d6d6;
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  border-radius:3px;
+  transition:.2s all; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-navbar:hover .nav-link {
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+
+.contenedor-navbar:hover .nav-link:hover {
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+ .contenedor-navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
  }
 
 .foto {
