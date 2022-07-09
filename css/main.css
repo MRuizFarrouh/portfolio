@@ -5,7 +5,7 @@
   font-size: 16px;
 }
 
-.main-bg {
+.main-colors {
   background-color: var(--main-primary-color);
   color: var(--secondary-font-color);
 }
@@ -14,7 +14,7 @@
   font-style: italic;
 }
 
-.navbar-main-bg {
+.navbar-main {
   background-color: var(--main-navbar-color);
   color: var(--secondary-font-color);
   padding: 0px 0px;
@@ -27,13 +27,11 @@
   min-height: 75px;
 }
 
-.nav-link-color {
+.nav-link {
   color: var(--secondary-font-color);
   display: flex;
   justify-content: right;
-  display: none;
-    
-}
+ }
 
 .foto {
   display: flex;
@@ -45,25 +43,14 @@
   font: bolder;
   display: flex;
   justify-content: center;
-  
-  
 }
 
 .carousel-links {
     display: flex;
     justify-content: center;
-  }
+ }
   
-  .carousel-dot {
-    background-color: black;
-    width: 16px;
-    height: 16px;
-    display: block;
-    border-radius: 50%;
-    margin: 5px;
-  }
-  
-  .carousel-slides > div {
+.carousel-slides > div {
     width: 100%;
     background-color: rgb(68, 68, 68);
     color: var(--secondary-font-color);
@@ -71,9 +58,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+} 
   
-  .carousel-slides {
+.carousel-dot {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-radius: 50%;
+    margin: 5px;
+ }
+ 
+.carousel-slides {
     width: 100vw;
     height: 30vh;
     overflow: hidden;
@@ -81,9 +77,9 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  }
+}
 
-  .slide-item {
+.slide-item {
     width: 100vw;
     height: 30vh;
     overflow: hidden;
@@ -91,4 +87,27 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  }
+ }
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima{
+  color: aliceblue;
+  font-size: larger;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.centrado{
+  color: aliceblue;
+  font-style: italic;
+  position: absolute;
+  top: 95%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
