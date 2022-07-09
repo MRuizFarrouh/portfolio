@@ -19,6 +19,18 @@
 	    </header>
     </div>
     <main>
+	<section class="carousel-container">
+		<div class="carousel-slides">
+		  <div id="slide1">Proyecto 1</div>
+		  <div id="slide2">Proyecto 2</div>
+		  <div id="slide3">Proyecto 3</div>
+		</div>
+		<div class="carousel-links">
+		  <a class="carousel-dot" href="#slide1"></a>
+		  <a class="carousel-dot" href="#slide2"></a>
+		  <a class="carousel-dot" href="#slide3"></a>
+		</div>
+	</section>	
     <section id="contacto">
 		<div>
 			<h2>Contacto</h2>
@@ -27,15 +39,15 @@
 			<form id="formulario-contacto" action="/register" method="post">
 				<div>
 					<label for="contacto-nombre">Nombre</label>
-					<input type="text" id="contacto-nombre" placeholder="Nombre" required>
+					<input type="text" name="contacto-nombre" id="contacto-nombre" placeholder="Nombre" required>
 				</div>
                 <div>
 					<label for="contacto-apellidos">Apellidos</label>
-					<input type="text" id="contacto-apellidos" placeholder="Apellidos" required>
+					<input type="text" name="contacto-apellidos" id="contacto-apellidos" placeholder="Apellidos" required>
 				</div>
 				<div>
 					<label for="contacto-email">Email</label>
-					<input type="email" id="contacto-email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required>
+					<input type="email" name="contacto-email" id="contacto-email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="Email" required>
 				</div>
 				<div>
 					<label for="contacto-telefono">Teléfono</label>
@@ -44,7 +56,7 @@
 				<div>
 					<p>¿Cómo me conociste?</p>
 					<div class="radio-button">
-						<input type="radio" id="universidad" name="pregunta" value="universidad" required>
+						<input type="radio" name="pregunta" id="universidad"  value="universidad" required>
 						<label for="universidad">Nos conocimos en la Universidad.</label>
 					</div>
 					<div class="radio-button">
@@ -70,8 +82,7 @@
 				</div>
 			</form>
 		</div>
-	</div>
-	</section>
+		</section>
     </main>
 </body>
 </html>
