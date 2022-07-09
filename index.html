@@ -9,17 +9,52 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <div>
-		<header>
+<body class="main-bg">
+    <header>
+		<nav class="navbar-main-bg">
 			<div>
 				<h1>Manuel Ruiz Farrouh</h1>
-				<p>Fotógrafo</p>
+				<p class="italics">Fotógrafo</p>
 			</div>
-	    </header>
-    </div>
+			<a class="nav-link-color" href="#mis-proyectos">Proyectos</a>
+			<a class="nav-link-color" href="#skills">Skills</a>
+			<a class="nav-link-color" href="#contacto">Contacto</a>
+		</nav>
+		<figure>
+			<picture class="foto">
+			  <source
+				media="(min-width: 800px)"
+				srcset="
+				/z_portfolio_Manuel_Ruiz\images\logonavbar.jpg 1x">
+			  <source
+				media="(min-width: 0px)"
+				srcset="/z_portfolio_Manuel_Ruiz\images\logonavbarlow.jpg 1x">
+			  <img
+				src="/z_portfolio_Manuel_Ruiz\images\logonavbar.jpg" alt="Costa da Morte">
+			</picture>
+			<div class="foto">
+				<figcaption class="italics">Costa da Morte.</figcaption>
+			</div>
+		  </figure>
+	</header>
+    
     <main>
-	<section id="Mis proyectos" class="carousel-container">
+	<section id="sobre-mi">
+		<div>
+			<article>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem nesciunt dolorum corporis asperiores voluptatum magni corrupti, eveniet, error nam rem architecto quibusdam! Voluptates beatae veniam, ex deleniti ipsum iste?
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores ea numquam consectetur doloribus dolorum obcaecati molestias autem, delectus eligendi voluptates asperiores cupiditate vel, amet nulla id ex accusantium quae consequatur.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero saepe asperiores repellendus excepturi maxime repudiandae recusandae quasi et soluta placeat corporis voluptas architecto officia quisquam doloremque quia reprehenderit, nisi ducimus?
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quam minima deserunt voluptates quis ullam similique vel iste quas architecto nostrum, obcaecati sapiente beatae. Iure sequi necessitatibus impedit nostrum assumenda!
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eligendi voluptate nisi quis, voluptas rem repellat, blanditiis odio sit reprehenderit error voluptatibus expedita ullam? Modi cum quis sequi at voluptatum.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nulla iusto eos iste hic accusantium non amet minus sint labore laborum veniam repudiandae cumque corporis temporibus, voluptatibus esse eligendi dignissimos.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatem voluptates. Error, odio! Placeat cum praesentium quidem rem enim inventore saepe corporis nihil, culpa, quas excepturi dolores iusto esse doloremque.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ratione dolorum cumque rerum eum excepturi explicabo, officiis fugit distinctio, repellat dolorem neque quasi pariatur maxime quisquam laboriosam eligendi, sint maiores?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eos. Impedit, expedita et. Hic magni commodi laudantium aut similique. Illo porro rerum iusto aspernatur consequatur animi eos molestias? Iusto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam laborum nisi officia. Non modi saepe doloremque, dicta vel ducimus hic fugiat incidunt aliquam adipisci? Reprehenderit nostrum quibusdam eius et?
+			</article>
+		</div>
+	</section>	
+	<section id="Mis-proyectos" class="carousel-container">
 		<div>
 			<h2>Mis proyectos</h2>
 		</div>
@@ -34,7 +69,7 @@
 		  <a class="carousel-dot" href="#slide3"></a>
 		</div>
 	</section>
-	<section id="Skills">
+	<section id="skills">
 		<div>
 			<h2>Skills</h2>
 		</div>
@@ -92,6 +127,7 @@
 		</div>
 	</section>
     </main>
+
 	<footer>
 		<section id="rrss">
 

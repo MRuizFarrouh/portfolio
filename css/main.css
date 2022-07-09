@@ -1,3 +1,42 @@
+:root {
+  --main-primary-color: #b4b4b4;
+  --secondary-font-color: rgb(0, 0, 0);
+  --main-navbar-color: #6d6d6d;
+  font-size: 16px;
+}
+
+.main-bg {
+  background-color: var(--main-primary-color);
+  color: var(--secondary-font-color);
+}
+
+.italics {
+  font-style: italic;
+}
+
+.navbar-main-bg {
+  background-color: var(--main-navbar-color);
+  color: var(--secondary-font-color);
+  padding: 0px 0px;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+}
+
+.navbar-main-bg .nav-link-color {
+  color: var(--secondary-font-color);
+  
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+}
+
 .carousel-links {
     display: flex;
     justify-content: center;
