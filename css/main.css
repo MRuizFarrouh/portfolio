@@ -11,7 +11,13 @@
 }
 
 .italics {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
+}
+
+.margen-cabecera {
+  margin-top: -20px;
+  font-size:x-large;
 }
 
 .navbar-main {
@@ -30,7 +36,8 @@
 .nav-link {
   color: var(--secondary-font-color);
   display: flex;
-  justify-content: right;
+  justify-content:right;
+  align-items: right;
  }
 
 .foto {
@@ -89,13 +96,13 @@
     flex-wrap: wrap;
  }
 
-.contenedor{
+.contenedor {
   position: relative;
   display: inline-block;
   text-align: center;
 }
 
-.texto-encima{
+.texto-encima {
   color: aliceblue;
   font-size: larger;
   position: absolute;
@@ -103,11 +110,16 @@
   left: 20px;
 }
 
-.centrado{
+.centrado {
   color: aliceblue;
   font-style: italic;
   position: absolute;
-  top: 95%;
+  top: 90%;
   left: 95%;
   transform: translate(-50%, -50%);
+}
+
+.boton {
+  border-radius: 5px;
+  border:2px;
 }

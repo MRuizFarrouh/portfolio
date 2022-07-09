@@ -14,11 +14,13 @@
 		<nav class="navbar-main">
 			<div>
 				<h1>Manuel Ruiz Farrouh</h1>
-				<p class="italics">Fotógrafo</p>
+				<p class="italics margen-cabecera">Fotógrafo</p>
 			</div>
-			<a class="nav-link" href="#mis-proyectos">Proyectos</a>
-			<a class="nav-link" href="#skills">Skills</a>
-			<a class="nav-link" href="#contacto">Contacto</a>
+			<div>
+				<a class="nav-link" href="#mis-proyectos">Proyectos</a>
+				<a class="nav-link" href="#skills">Skills</a>
+				<a class="nav-link" href="#contacto">Contacto</a>
+			</div>
 		</nav>
 		<figure>
 			<picture class="foto">
@@ -30,7 +32,7 @@
 				media="(min-width: 0px)"
 				srcset="/z_portfolio_Manuel_Ruiz\images\logonavbarlow.jpg 1x">
 			  <img
-				src="/z_portfolio_Manuel_Ruiz\images\logonavbar.jpg" alt="Costa da Morte">
+				src="/z_portfolio_Manuel_Ruiz\images\logonavbar.jpg" style="width: 100%" alt="Costa da Morte">
 			</picture>
 			<div class="foto">
 				<figcaption class="italics">Costa da Morte.</figcaption>
@@ -42,7 +44,7 @@
 	<section id="sobre-mi">
 		<div>
 			<article>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem nesciunt dolorum corporis asperiores voluptatum magni corrupti, eveniet, error nam rem architecto quibusdam! Voluptates beatae veniam, ex deleniti ipsum iste?
+				<p><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem nesciunt dolorum corporis asperiores voluptatum magni corrupti, eveniet, error nam rem architecto quibusdam! Voluptates beatae veniam, ex deleniti ipsum iste?
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores ea numquam consectetur doloribus dolorum obcaecati molestias autem, delectus eligendi voluptates asperiores cupiditate vel, amet nulla id ex accusantium quae consequatur.
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero saepe asperiores repellendus excepturi maxime repudiandae recusandae quasi et soluta placeat corporis voluptas architecto officia quisquam doloremque quia reprehenderit, nisi ducimus?
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quam minima deserunt voluptates quis ullam similique vel iste quas architecto nostrum, obcaecati sapiente beatae. Iure sequi necessitatibus impedit nostrum assumenda!
@@ -50,27 +52,28 @@
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nulla iusto eos iste hic accusantium non amet minus sint labore laborum veniam repudiandae cumque corporis temporibus, voluptatibus esse eligendi dignissimos.
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatem voluptates. Error, odio! Placeat cum praesentium quidem rem enim inventore saepe corporis nihil, culpa, quas excepturi dolores iusto esse doloremque.
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ratione dolorum cumque rerum eum excepturi explicabo, officiis fugit distinctio, repellat dolorem neque quasi pariatur maxime quisquam laboriosam eligendi, sint maiores?
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eos. Impedit, expedita et. Hic magni commodi laudantium aut similique. Illo porro rerum iusto aspernatur consequatur animi eos molestias? Iusto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam laborum nisi officia. Non modi saepe doloremque, dicta vel ducimus hic fugiat incidunt aliquam adipisci? Reprehenderit nostrum quibusdam eius et?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eos. Impedit, expedita et. Hic magni commodi laudantium aut similique. Illo porro rerum iusto aspernatur consequatur animi eos molestias? Iusto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam laborum nisi officia. Non modi saepe doloremque, dicta vel ducimus hic fugiat incidunt aliquam adipisci? Reprehenderit nostrum quibusdam eius et?</p>
 			</article>
 		</div>
 	</section>	
 	<section id="mis-proyectos">
+		<br>
 		<div class="titulo-seccion">
 			<strong>Mis proyectos</strong>
 		</div>
 		<div class="carousel-slides">
 		  <div id="slide1" class="slide-item contenedor">
-			<img src="/z_portfolio_Manuel_Ruiz\images\paisaje.jpg"><!-- Proyecto 1 -->
+			<img src="/z_portfolio_Manuel_Ruiz\images\paisaje.jpg" style="width: 100%"><!-- Proyecto 1 -->
 			<div class="texto-encima">Fotografía de paisajes</div>
 			<div class="centrado">Río Xallas. Muxía.</div>
 		  </div>
 		  <div id="slide2" class="slide-item contenedor">
-			<img src="/z_portfolio_Manuel_Ruiz\images\social.jpg"><!-- Proyecto 2 -->
+			<img src="/z_portfolio_Manuel_Ruiz\images\social.jpg" style="width: 100%"><!-- Proyecto 2 -->
 			<div class="texto-encima">Fotografía social</div>
 			<div class="centrado">Fisterra.</div>
 		  </div>
 		  <div id="slide3" class="slide-item contenedor">
-			<img src="/z_portfolio_Manuel_Ruiz\images\fauna.jpg"><!-- Proyecto 3 -->
+			<img src="/z_portfolio_Manuel_Ruiz\images\fauna.jpg"  style="width: 100%"><!-- Proyecto 3 -->
 			<div class="texto-encima">Fotografía artística</div>
 			<div class="centrado">Praia de Lires.</div>
 		  </div>
@@ -82,11 +85,13 @@
 		</div>
 	</section>
 	<section id="skills">
+		<br>
 		<div class="titulo-seccion">
 			<strong>Skills</strong>
 		</div>
 	</section>	
     <section id="contacto">
+		<br>
 		<div class="titulo-seccion">
 			<strong>Formulario de contacto</strong>
 		</div>
@@ -94,19 +99,19 @@
 			<form id="formulario-contacto" action="/register" method="post">
 				<div>
 					<label for="contacto-nombre">Nombre</label>
-					<input type="text" name="contacto-nombre" id="contacto-nombre" placeholder="Nombre" required>
+					<input type="text" style="width : 200px"; name="contacto-nombre" id="contacto-nombre" placeholder="Nombre" required>
 				</div>
                 <div>
 					<label for="contacto-apellidos">Apellidos</label>
-					<input type="text" name="contacto-apellidos" id="contacto-apellidos" placeholder="Apellidos" required>
+					<input type="text" style="width : 190px"; name="contacto-apellidos" id="contacto-apellidos" placeholder="Apellidos" required>
 				</div>
 				<div>
 					<label for="contacto-email">Email</label>
-					<input type="email" name="contacto-email" id="contacto-email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="Email" required>
+					<input type="email" style="width : 214px"; name="contacto-email" id="contacto-email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="Email" required>
 				</div>
 				<div>
 					<label for="contacto-telefono">Teléfono</label>
-					<input type="tel" name="contacto-telefono" id="contacto-telefono" pattern="\b\d{3}[-.]?\d{3}[-.]?\d{3,4}\b" placeholder="Teléfono" required>
+					<input type="tel" style="width : 195px"; name="contacto-telefono" id="contacto-telefono" pattern="\b\d{3}[-.]?\d{3}[-.]?\d{3,4}\b" placeholder="Teléfono" required>
 				</div>
 				<div>
 					<p>¿Cómo me conociste?</p>
@@ -125,7 +130,7 @@
 					<div class="radio-button">
 						<input type="radio" id="github" name="pregunta" value="github" required>
 						<label for="github">Github</label>
-						<input type="text" id="github-text" name="github" placeholder="Tag de Github" pattern=" ^@[^\s]+">
+						<input type="text" style="width : 189px"; id="github-text" name="github" placeholder="Tag de Github" pattern=" ^@[^\s]+">
 					</div>
 				</div>
 				<div>
@@ -133,7 +138,7 @@
 					<textarea name="descripcion" id="descripcion" row="1" placeholder="Max 180 caracteres"></textarea>
 				</div>
 				<div>
-					<button type="submit" id="submit-button">Enviar</button>
+					<button type="submit" class="boton" id="submit-button">Enviar</button>
 				</div>
 			</form>
 		</div>
