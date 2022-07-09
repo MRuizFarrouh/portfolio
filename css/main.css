@@ -1,5 +1,5 @@
 :root {
-  --main-primary-color: #b4b4b4;
+  --main-primary-color: #ddd5d5;
   --secondary-font-color: rgb(0, 0, 0);
   --main-navbar-color: #6d6d6d;
   font-size: 16px;
@@ -27,14 +27,26 @@
   min-height: 75px;
 }
 
-.navbar-main-bg .nav-link-color {
+.nav-link-color {
   color: var(--secondary-font-color);
-  
+  display: flex;
+  justify-content: right;
+  display: none;
+    
 }
 
 .foto {
   display: flex;
   justify-content: center;
+}
+
+.titulo-seccion {
+  font-size: larger;
+  font: bolder;
+  display: flex;
+  justify-content: center;
+  
+  
 }
 
 .carousel-links {
@@ -62,6 +74,16 @@
   }
   
   .carousel-slides {
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .slide-item {
     width: 100vw;
     height: 30vh;
     overflow: hidden;
