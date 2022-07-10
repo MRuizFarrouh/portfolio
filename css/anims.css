@@ -1,0 +1,106 @@
+.progreso-photoshop {
+  background: rgb(255, 187, 0);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 0px;
+  display: flex;
+  height: 20px;
+  width: 300px;
+}
+
+.progress-value-photoshop {
+  animation: photoshop 3s normal forwards;
+  box-shadow: 0 10px 20px 10px rgba(19, 7, 7, 0.185);
+  border-radius: 100px;
+  background: rgb(107, 107, 107);
+  height: 20px;
+  width: 0;
+}
+
+@keyframes photoshop {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+
+.progreso-lightroom {
+  background: rgb(255, 187, 0);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 0px;
+  display: flex;
+  height: 20px;
+  width: 300px;
+  
+}
+
+.progress-value-lightroom {
+  animation: lightroom 3s normal forwards;
+  box-shadow: 0 10px 20px 10px rgba(19, 7, 7, 0.185);
+  border-radius: 100px;
+  background: rgb(107, 107, 107);
+  height: 20px;
+  width: 0;
+}
+
+@keyframes lightroom {
+  0% { width: 0; }
+  100% { width: 98%; }
+}
+
+.progreso-github {
+  background: rgb(255, 187, 0);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 0px;
+  display: flex;
+  height: 20px;
+  width: 300px;
+  
+}
+
+.progress-value-github {
+  animation: github 3s normal forwards;
+  box-shadow: 0 10px 20px 10px rgba(19, 7, 7, 0.185);
+  border-radius: 100px;
+  background: rgb(107, 107, 107);
+  height: 20px;
+  width: 0;
+}
+
+@keyframes github {
+  0% { width: 0; }
+  100% { width: 35%; }
+}
+
+.barras-progreso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barras {
+  display: flex;
+  justify-content: left;
+  margin-top : 25px;
+  align-items: center;
+  align-content: center;
+}
+
+.barras-porc {
+  color: antiquewhite;
+  text-align: left;
+  padding-left: 02px;
+  padding-top: 2px;
+}
+
+@media screen and (min-width:700px){
+  .barras-porc {
+  padding-left: 10px;
+  }
+}
