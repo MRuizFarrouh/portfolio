@@ -63,6 +63,11 @@
 .boton-formulario-main {
   border-radius: 5px;
   border:2px;
+  width: 100px;
+  background-color: #918989;
+  transition: background-color 1s linear;
+  transition: color 0.5s linear;
+  transition: width 0.5s linear;
 }
 
 /* .navbar-footer {
@@ -87,5 +92,11 @@
 @media screen and (min-width:700px){
   .contenedor-navbar {
     display: flex;
+  }
+
+  .boton-formulario-main[type="submit"]:hover {
+    background-color: rgb(34, 33, 33);
+    color: #ddd5d5;
+    width: 90px;
   }
 }
