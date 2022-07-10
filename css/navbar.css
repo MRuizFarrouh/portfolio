@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 75px;
+    min-height: 70px;
   }
   
   .nav-link {
@@ -30,7 +30,7 @@
   }
   
   .nav-link {
-    padding:20px;
+    padding:30px;
     margin:2%;
     background:rgb(114, 109, 109);
     width:20%;

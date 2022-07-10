@@ -24,7 +24,6 @@
   font-size:x-large;
 }
 
-
 .foto {
   display: flex;
   justify-content: center;
@@ -37,7 +36,6 @@
   justify-content: center;
 }
 
-
 .formulario {
  text-align: center;
  margin: 10px;
@@ -48,7 +46,7 @@
   border:2px;
 }
 
-.navbar-footer {
+/* .navbar-footer {
   background-color: var(--main-navbar-color);
   color: var(--secondary-font-color);
   display: flex;
@@ -65,7 +63,7 @@
   display: flex;
   justify-content:space-between;
   align-items:center;
- }
+ } */
 
 @media screen and (min-width:700px){
   .contenedor-navbar {
