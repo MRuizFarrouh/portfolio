@@ -4,23 +4,68 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mis viajes</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/viajes.css"
+  <title>Mis viajes (css grid sketch)</title>
+  <link rel="stylesheet" href="css/viajes.css">
 </head>
 <body class="main-colors">
-    <header>
-        <nav class="navbar-main-mv">
-            <div>
-                <a href="/z_portfolio_Manuel_Ruiz\index.html"><p class="italics margen-texto-atras-mv">...atrás</p></a>
-            </div>
-            <div>
-                <h1>Mis viajes</h1>
-            </div>
-        </nav>
-    </header>
+  <section>
+    <div>
+      <video src="images\video.mp4" autoplay muted loop controls class="video"></video>
+    </div>
+  </section>
+  <section id="grid">
+    <div class="child-page-listing">
+        <h2>Mis viajes</h2>
+        <div class="contenedor-grid">
+            <article id="3685" class="lista-viaje">
+                <a class="nombre-destino" href="#">Bahamas</a>
+                <div class="foto-destino">
+                    <a href="#"><img width="300" height="169" src=images\bahamas.jpg alt="Bahamas"></a>
+                </div>
+            </article>
+            <article id="3688" class="lista-viaje">
+                <a class="nombre-destino" href="#">Bhutan</a>
+                <div class="foto-destino">
+                  <a href="#"><img width="300" height="169" src=images\bhutan.jpg alt="Bhutan"></a>
+                </div>
+            </article>
+            <article id="3691" class="lista-viaje">
+                <a class="nombre-destino" href="#">Egipto</a>
+                <div class="foto-destino">
+                  <a href="#"><img width="300" height="169" src=images\egipto.jpg alt="Egipto"></a>
+                </div>
+            </article>
+            <article id="3694" class="lista-viaje">
+                <a class="nombre-destino" href="#">Perito Moreno</a>
+                <div class="foto-destino">
+                  <a href="#"><img width="300" height="169" src=images\peritomoreno.jpg alt="Perito Moreno"></a>
+                </div>
+            </article>
+            <article id="3697" class="lista-viaje">
+                <a class="nombre-destino" href="#">Tanzania</a>
+                <div class="foto-destino">
+                  <a href="#"><img width="300" height="169" src=images\tanzania.jpg alt="Tanzania"></a>
+                </div>
+            </article>
+            <article id="3700" class="lista-viaje">
+                <a class="nombre-destino" href="#">Zanzíbar</a>
+                <div class="foto-destino">
+                  <a href="#"><img width="300" height="169" src=images\zanzibar.jpg alt="Zanzíbar"></a>
+                </div>
+            </article>
+        </div>
+     </div>
+  </section>
+  <footer>
+    <section id="rrss"><br>
+			<nav class="navbar-footer">
+				<a href="https://es-es.facebook.com/"><img src="images\logofacebook.png" width="35px" alt="logo facebook" target="_blank" rel="noopener noreferrer"></a>
+				
+				<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="images\logoinst.png" width="35px" alt="logo instagram"></a>
+				
+				<a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img src="images\logotweeter.png" width="35px" alt="logo tweeter"></a>
+			</nav>
+		</section>
+  </footer>
 </body>
 </html>
