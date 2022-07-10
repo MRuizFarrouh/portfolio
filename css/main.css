@@ -12,36 +12,55 @@
   color: var(--secondary-font-color);
 }
 
-.italics {
+.italics-main {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   color:#131313
 }
 
-.margen-texto-fotografo {
+.margen-texto-fotografo-main {
   margin-top: -28px;
   padding-bottom: 10px;
   font-size:x-large;
 }
 
-.foto {
+.foto-header-main {
   display: flex;
   justify-content: center;
 }
 
-.titulo-seccion {
+.titulo-seccion-main {
   font-size: larger;
   font: bolder;
   display: flex;
   justify-content: center;
 }
 
-.formulario {
+.formulario-main {
  text-align: center;
  margin: 10px;
 }
 
-.boton {
+.formulario-encuesta-main {
+  display:contents;
+  justify-content: space-between;
+  text-align: center;
+  margin: 10px;
+} 
+
+/* .encuesta-contenedor-main {
+  display:flex;
+  text-align: center;
+  align-items: center;
+} */
+
+/* .radio-button {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+} */
+
+.boton-formulario-main {
   border-radius: 5px;
   border:2px;
 }

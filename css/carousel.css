@@ -31,7 +31,7 @@
     flex-wrap: wrap;
 }
 
-.slide-item {
+.carousel-slide-item {
     width: 100vw;
     height: 30vh;
     overflow: hidden;
@@ -41,13 +41,13 @@
     flex-wrap: wrap;
 }
 
-.contenedor {
+.carousel-contenedor {
   position: relative;
   display: inline-block;
   text-align: center;
 }
 
-.texto-encima {
+.carousel-texto-encima {
   color: aliceblue;
   font-size: larger;
   position: absolute;
@@ -55,7 +55,7 @@
   left: 20px;
 }
 
-.centrado {
+.carousel-texto-centrado {
   color: aliceblue;
   font-style: italic;
   position: absolute;

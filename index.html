@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Manuel Ruiz Farrouh">
+  <meta name="keywords" content="portfolio, Manuel, Manuel Ruiz, fotografía, arte">
+  <meta name="author" content="Manuel Ruiz Farrouh">
+  <meta name="copyright" content="Manuel Ruiz Farrouh">
   <title>Manuel Ruiz Farrouh</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
@@ -14,19 +18,19 @@
 <body class="main-colors">
 	<!-- HEADER -->
     <header>
-		<nav class="navbar-main">
+		<nav class="navbar-header">
 			<div>
 				<h1>Manuel Ruiz Farrouh</h1>
-				<p class="italics margen-texto-fotografo">Fotógrafo</p>
+				<p class="italics-main margen-texto-fotografo-main">Fotógrafo</p>
 			</div>
-			<div class="contenedor-navbar">
-				<a class="nav-link" href="#mis-proyectos">Proyectos</a>
-				<a class="nav-link" href="#skills">Skills</a>
-				<a class="nav-link" href="#contacto">Contacto</a>
+			<div class="contenedor-navbar-header">
+				<a class="nav-link-header" href="#mis-proyectos">Proyectos</a>
+				<a class="nav-link-header" href="#skills">Skills</a>
+				<a class="nav-link-header" href="#contacto">Contacto</a>
 			</div>
 		</nav>
 		<figure>
-			<picture class="foto">
+			<picture class="foto-header-main">
 			  <source
 				media="(min-width: 700px)"
 				srcset="
@@ -37,13 +41,14 @@
 			  <img
 				src="/z_portfolio_Manuel_Ruiz\images\logonavbar.jpg" style="width: 100%" alt="Costa da Morte">
 			</picture>
-			<div class="foto">
-				<figcaption class="italics">Costa da Morte.</figcaption>
+			<div class="foto-header-main">
+				<figcaption class="italics-main">Costa da Morte.</figcaption>
 			</div>
 		  </figure>
 	</header>
     <!-- MAIN -->
     <main>
+	<!-- seccion: sobre mi -->
 	<section id="sobre-mi">
 		<div>
 			<article>
@@ -71,28 +76,29 @@
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eos. Impedit, expedita et. Hic magni commodi laudantium aut similique. Illo porro rerum iusto aspernatur consequatur animi eos molestias? Iusto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam laborum nisi officia. Non modi saepe doloremque, dicta vel ducimus hic fugiat incidunt aliquam adipisci? Reprehenderit nostrum quibusdam eius et?</p>
 			</article>
 		</div>
-	</section>	
+	</section>
+	<!-- seccion: mis-proyectos -->	
 	<section id="mis-proyectos">
 		<br>
-		<div class="titulo-seccion">
+		<div class="titulo-seccion-main">
 			<strong>Mis proyectos</strong>
 		</div>
 		<br>
 		<div class="carousel-slides">
-		  <div id="slide1" class="slide-item contenedor">
+		  <div id="slide1" class="carousel-slide-item carousel-contenedor">
 			<img src="/z_portfolio_Manuel_Ruiz\images\paisaje.jpg" style="width: 100%"><!-- Proyecto 1 -->
-			<div class="texto-encima">Fotografía de paisajes</div>
-			<div class="centrado">Río Xallas. Muxía.</div>
+			<div class="carousel-texto-encima">Fotografía de paisajes</div>
+			<div class="carousel-texto-centrado">Río Xallas. Muxía.</div>
 		  </div>
-		  <div id="slide2" class="slide-item contenedor">
+		  <div id="slide2" class="carousel-slide-item carousel-contenedor">
 			<img src="/z_portfolio_Manuel_Ruiz\images\social.jpg" style="width: 100%"><!-- Proyecto 2 -->
-			<div class="texto-encima">Fotografía social</div>
-			<div class="centrado">Fisterra.</div>
+			<div class="carousel-texto-encima">Fotografía social</div>
+			<div class="carousel-texto-centrado">Fisterra.</div>
 		  </div>
-		  <div id="slide3" class="slide-item contenedor">
+		  <div id="slide3" class="carousel-slide-item carousel-contenedor">
 			<img src="/z_portfolio_Manuel_Ruiz\images\fauna.jpg"  style="width: 100%"><!-- Proyecto 3 -->
-			<div class="texto-encima">Fotografía artística</div>
-			<div class="centrado">Praia de Lires.</div>
+			<div class="carousel-texto-encima">Fotografía artística</div>
+			<div class="carousel-texto-centrado">Praia de Lires.</div>
 		  </div>
 		</div>
 		<div class="carousel-links">
@@ -101,64 +107,68 @@
 		  <a class="carousel-dot" href="#slide3"></a>
 		</div>
 	</section>
+	<!-- seccion: skills -->
 	<section id="skills">
 		<br>
-		<div class="titulo-seccion">
+		<div class="titulo-seccion-main">
 			<strong>Skills</strong>
 		</div>
-	</section>	
+	</section>
+	<!-- seccion: contacto -->	
     <section id="contacto">
 		<br>
-		<div class="titulo-seccion">
+		<div class="titulo-seccion-main">
 			<strong>Formulario de contacto</strong>
 		</div>
 		<br>
 		<div>
 			<form id="formulario-contacto" action="/register" method="post">
-				<div class="formulario">
+				<div class="formulario-main">
 					<label for="contacto-nombre">Nombre</label>
 					<input type="text" style="width : 200px"; name="contacto-nombre" id="contacto-nombre" placeholder="Nombre" required>
 				</div>
-                <div class="formulario">
+                <div class="formulario-main">
 					<label for="contacto-apellidos">Apellidos</label>
 					<input type="text" style="width : 190px"; name="contacto-apellidos" id="contacto-apellidos" placeholder="Apellidos" required>
 				</div>
-				<div class="formulario">
+				<div class="formulario-main">
 					<label for="contacto-email">Email</label>
 					<input type="email" style="width : 214px"; name="contacto-email" id="contacto-email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  placeholder="Email" required>
 				</div>
-				<div class="formulario">
+				<div class="formulario-main">
 					<label for="contacto-telefono">Teléfono</label>
 					<input type="tel" style="width : 195px"; name="contacto-telefono" id="contacto-telefono" pattern="\b\d{3}[-.]?\d{3}[-.]?\d{3,4}\b" placeholder="Teléfono" required>
 				</div>
 				<br>
-				<div class="formulario">
-					<p>¿Cómo me conociste?</p>
-					<div class="radio-button">
-						<input type="radio" name="pregunta" id="universidad"  value="universidad" required>
-						<label for="universidad">Nos conocimos en la Universidad.</label>
-					</div>
-					<div class="radio-button">
-						<input type="radio" id="keepcoding" name="pregunta" value="KeepCoding" required>
-						<label for="keepcoding">Keepcoding kick-off.</label>
-					</div>
-					<div class="radio-button">
-						<input type="radio" id="colegio" name="pregunta" value="colegio" required>
-						<label for="colegio">Colegio.</label>
-					</div>
-					<div class="radio-button">
-						<input type="radio" id="github" name="pregunta" value="github" required>
-						<label for="github">Github</label>
-						<input type="text" style="width : 189px"; id="github-text" name="github" placeholder="Tag de Github" pattern=" ^@[^\s]+">
+				<div class="formulario-encuesta-main">
+					<div class="encuesta-contenedor-main">
+						<p>¿Cómo me conociste?</p>
+						<div class="radio-button">
+							<input type="radio" name="pregunta" id="universidad"  value="universidad" required>
+							<label for="universidad">Nos conocimos en la Universidad.</label>
+						</div>
+						<div class="radio-button">
+							<input type="radio" id="keepcoding" name="pregunta" value="KeepCoding" required>
+							<label for="keepcoding">Keepcoding kick-off.</label>
+						</div>
+						<div class="radio-button">
+							<input type="radio" id="colegio" name="pregunta" value="colegio" required>
+							<label for="colegio">Colegio.</label>
+						</div>
+						<div class="radio-button">
+							<input type="radio" id="github" name="pregunta" value="github" required>
+							<label for="github">Github</label>
+							<input type="text" style="width : 189px"; id="github-text" name="github" placeholder="Tag de Github" pattern=" ^@[^\s]+">
+						</div>	
 					</div>
 				</div>
 				<br>
-				<div class="formulario">
+				<div class="formulario-main">
 					<label for="descripcion"><!-- Descripción --></label>
-					<textarea name="descripcion" style="width : 254px" id="descripcion" row="1" placeholder="Descripción: Max 180 caracteres" required></textarea>
+					<textarea name="descripcion" style="width : 254px" id="descripcion" row="1" placeholder="Descripción: Max 180 caracteres" maxlength="180" required></textarea>
 				</div>
-				<div class="formulario">
-					<button type="submit" class="boton" id="submit-button">Enviar</button>
+				<div class="formulario-main">
+					<button type="submit" class="boton-formulario-main" id="submit-button">Enviar</button>
 				</div>
 			</form>
 		</div>
