@@ -1,0 +1,8 @@
+.navbar-footer {
+    background-color: var(--main-navbar-color);
+    color: var(--secondary-font-color);
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
