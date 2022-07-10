@@ -3,6 +3,8 @@
   --secondary-font-color: rgb(0, 0, 0);
   --main-navbar-color: #6d6d6d;
   font-size: 16px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .main-colors {
@@ -35,77 +37,10 @@
   justify-content: center;
 }
 
-.carousel-links {
-    display: flex;
-    justify-content: center;
-}
-  
-.carousel-slides > div {
-    width: 100%;
-    background-color: rgb(68, 68, 68);
-    color: var(--secondary-font-color);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-  
-.carousel-dot {
-    background-color: black;
-    width: 16px;
-    height: 16px;
-    display: block;
-    border-radius: 50%;
-    margin: 5px;
-}
- 
-.carousel-slides {
-    width: 100vw;
-    height: 30vh;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.slide-item {
-    width: 100vw;
-    height: 30vh;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.contenedor {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.texto-encima {
-  color: aliceblue;
-  font-size: larger;
-  position: absolute;
-  top: 10px;
-  left: 20px;
-}
-
-.centrado {
-  color: aliceblue;
-  font-style: italic;
-  position: absolute;
-  top: 90%;
-  left: 95%;
-  transform: translate(-50%, -50%);
-}
 
 .formulario {
  text-align: center;
  margin: 10px;
-
 }
 
 .boton {
