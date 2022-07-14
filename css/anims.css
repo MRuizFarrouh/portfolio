@@ -1,4 +1,4 @@
-.progreso-photoshop {
+.progreso-photoshop, .progreso-lightroom, .progreso-github {
   background: rgb(255, 187, 0);
   justify-content: flex-start;
   border-radius: 100px;
@@ -24,18 +24,6 @@
   100% { width: 65%; }
 }
 
-.progreso-lightroom {
-  background: rgb(255, 187, 0);
-  justify-content: flex-start;
-  border-radius: 100px;
-  align-items: center;
-  position: relative;
-  padding: 0 0px;
-  display: flex;
-  height: 20px;
-  width: 300px;
-}
-
 .progress-value-lightroom {
   animation: lightroom 3s normal forwards;
   box-shadow: 0 10px 20px 10px rgba(19, 7, 7, 0.185);
@@ -50,17 +38,6 @@
   100% { width: 98%; }
 }
 
-.progreso-github {
-  background: rgb(255, 187, 0);
-  justify-content: flex-start;
-  border-radius: 100px;
-  align-items: center;
-  position: relative;
-  padding: 0 0px;
-  display: flex;
-  height: 20px;
-  width: 300px;
-}
 
 .progress-value-github {
   animation: github 3s normal forwards;
